@@ -1,0 +1,21 @@
+SETUP
+-Go to https://expo.github.io/router/docs/ and copy the quick start command (npx create-expo-app@latest -e with-router ./) into the prompt
+-Create an app folder on root, inside create an index.js and _layout.js files.
+-Install some dependencies: npm install expo-font axios react-native-dotenv
+-When starting (npm start), it will display a qr code on the command prompt. Download "Expo Go" app on Google Play Store and scan the qr code to view live changes. You can also view on web browser using localhost:19000, inspect the page, select "toggle device toolbar" to view in a mobile screen format.
+- Create constants, styles, assets and components folder 
+- app/index.js file is the entry point (home screen) of the app, so start setting the basic structure: the header buttons and some other components (welcome, popularjobs, nearlyjobs) 
+- For custom hooks, create a new folder called hooks in the root 
+
+RAPIDAPI
+- App uses Jsearch API from RAPIDAPI. Subscribe to one plan, go to the Endpoints section and use the options const on the "code snippets" part. 
+
+DEPLOYMENT
+
+run: npm install -g expo-cli
+run: expo publish
+Click on the "Project page" link
+Sign up in expo, the project should appear there
+
+START 
+npm start
