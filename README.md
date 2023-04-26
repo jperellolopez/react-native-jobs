@@ -1,15 +1,5 @@
-# Expo Router Example
+App móvil desarrollada con React Native en Expo (https://expo.dev/). Utiliza la api de jsearch (https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch) para obtener datos de ofertas de empleo procedentes de diferentes fuentes.
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+Funcionalidades destacadas: mostrar ofertas cercanas, mostrar ofertas populares, buscar ofertas por palabras clave. 
 
-## 🚀 How to use
-
-```sh
-npx create-react-native-app -t with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+Accesible desde: https://expo.dev/@jperellolopez/react-native-jobs?serviceType=classic&distribution=expo-go
